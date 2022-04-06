@@ -1,0 +1,4 @@
+ip addr add 192.168.0.254/24 dev eth0
+ip addr add 172.16.1.254/16 dev eth1
+ip link set eth0 up
+ip link set eth1 up
